@@ -1,0 +1,22 @@
+@use 'font';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    overflow-x: none;
+}
+
+$color : (
+    'text-color' : #3d2514,
+);
+
+@include font.font();
+$font : (
+ 'ASLO-Regular' : 'AlfaSlabOne-Regular',
+ 'BN-Regular'   : 'BebasNeue-Regular',
+ 'M-Regular'    : 'Montserrat-Regular'
+);

@@ -1,0 +1,18 @@
+@use 'root';
+@use 'navbar';
+@use 'header';
+
+.landing-page {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/landing-page/background.png');
+    background-position: center;
+    background-size: cover;
+
+    // navbar
+    @include navbar.navbar();
+    // end navbar
+
+    @include header.header();
+    
+}

@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/main.scss"
-    ],
-    "names": [],
-    "file": "main.css"
-}
+{"version":3,"sourceRoot":"","sources":["../sass/moduls/_root.scss","../sass/moduls/_font.scss","../sass/moduls/_landing.scss","../sass/moduls/_navbar.scss","../sass/moduls/_header.scss"],"names":[],"mappings":"AAEA;EACI;EACA;EACA;;;AAGJ;EACI;;;ACRA;EACI;EACA;;AAEJ;EACI;EACA;;AAEJ;EACI;EACA;;ACPR;EACI;EACA;EACA;EACA;EACA;;ACNA;EACI;;AAEA;EAEI;EACA;EACA;EACA;EACA;EACA;EAEA;;AAII;EACI;;AAMR;EACI;EACA;EACA;EACA;;AACA;EACI;EACA;;AAEJ;EACI;EACA;EACA;;AAQZ;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAGI;EACI;EACA;EACA;EACA;;AC5DpB;EAEI;EACA;EAGA;EACA;EACA;EACA;;AAGA;EACI;EACA;;AACA;EACI;EACA;EACA;EACA;;AACA;EACI;EAEA;EACA;EACA;;AAMJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAEJ;EACI;;AAOZ;EACI;EACA;;AACA;EACI","file":"main.css"}

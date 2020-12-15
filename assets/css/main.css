@@ -1,1 +1,123 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: none;
+}
+
+@font-face {
+  font-family: "AlfaSlabOne-Regular";
+  src: url("../fonts/AlfaSlabOne-Regular.ttf");
+}
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../fonts/BebasNeue-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+.landing-page {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/landing-page/background.png");
+  background-position: center;
+  background-size: cover;
+}
+.landing-page .navbar {
+  width: 100%;
+}
+.landing-page .navbar .logo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-sizing: border-box;
+  height: 80px;
+  align-items: flex-end;
+}
+.landing-page .navbar .logo .logo-brand img {
+  height: 43px;
+}
+.landing-page .navbar .logo .logo-delivery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.landing-page .navbar .logo .logo-delivery img {
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.landing-page .navbar .logo .logo-delivery span {
+  color: #3d2514;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.landing-page .navbar .list {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-flow: row-reverse;
+}
+.landing-page .navbar .list .list-items {
+  display: flex;
+  width: 40%;
+  height: 100%;
+  justify-content: space-around;
+  list-style: none;
+}
+.landing-page .navbar .list .list-items li a {
+  text-decoration: none;
+  color: #3d2514;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.landing-page .header {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.landing-page .header .header-section-firts {
+  padding-left: 45px;
+  box-sizing: border-box;
+}
+.landing-page .header .header-section-firts .header-text {
+  padding: 5px;
+  width: 300px;
+  box-sizing: border-box;
+  border: 2px dashed #333;
+}
+.landing-page .header .header-section-firts .header-text p {
+  font-family: "BebasNeue-Regular";
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.landing-page .header .header-section-firts .big-text .first, .landing-page .header .header-section-firts .big-text .second {
+  font-family: "AlfaSlabOne-Regular";
+  font-size: 5em;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 3px;
+  color: #3d2514;
+}
+.landing-page .header .header-section-firts .big-text .second {
+  font-size: 3.5em;
+}
+.landing-page .header .header-section-second {
+  box-sizing: border-box;
+  padding-top: 80px;
+}
+.landing-page .header .header-section-second img {
+  max-height: 400px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,15 @@
+@mixin font(){
+    @font-face{
+        font-family: 'AlfaSlabOne-Regular'; 
+        src: url('../fonts/AlfaSlabOne-Regular.ttf');
+    }
+    @font-face{
+        font-family: 'BebasNeue-Regular'; 
+        src: url('../fonts/BebasNeue-Regular.ttf');
+    }
+    @font-face{
+        font-family: 'Montserrat-Regular'; 
+        src: url('../fonts/Montserrat-Regular.ttf');
+    }
+    
+}
