@@ -2,4 +2,7 @@
 @use 'moduls/root';
 
 // landing page
-@use 'moduls/landing';
+@use 'moduls/landing/landing';
+
+// responsive
+@use 'moduls/responsive';

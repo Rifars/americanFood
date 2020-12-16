@@ -1,0 +1,285 @@
+@use '../root';
+
+@mixin navbar {
+    .navbar {
+        width: 100%;
+        // logo
+        .logo{
+
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 40px;
+            box-sizing: border-box;
+            height: 80px;
+            // margin-bottom: 10px;
+            align-items: flex-end;
+
+            // logo brand
+            .logo-brand{
+                img{
+                    height: 43px;
+                }
+            }
+            // end logo brand
+
+            // logo delivery
+            .logo-delivery{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                img {
+                    padding-right: 10px;
+                    box-sizing: border-box;
+                }
+                span {
+                    color: map-get(root.$color, 'text-color');
+                    font-size: .9em;
+                    font-weight: bold;
+                }
+            }
+            // end logo delivery
+        }
+        // end logo
+
+        // list
+        .list {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            flex-flow: row-reverse;
+            // list item
+            .list-items{
+                display: flex;
+                width: 40%;
+                height: 100%;
+                justify-content: space-around;
+                list-style: none;
+
+                li {
+                    a{
+                        text-decoration: none;
+                        color: map-get(root.$color, 'text-color');
+                        font-weight: bold;
+                        font-size: .9em;
+                    }
+                }
+            }
+            // end list item
+            // hamburger button
+            // end hamburger button
+        }
+        // end list
+    }
+}
+// large
+@mixin lg {
+    .navbar {
+        width: 100%;
+        // logo
+        .logo{
+            height: 70px;
+            padding: 0 30px;
+
+            // logo brand
+            .logo-brand{
+                img{
+                    height: 35px;
+                }
+            }
+            // end logo brand
+
+            // logo delivery
+            .logo-delivery{
+                img {
+                }
+                span {
+                    font-size: .8em;
+                }
+            }
+            // end logo delivery
+        }
+        // end logo
+
+        // list
+        .list {
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            flex-flow: row-reverse;
+            // list item
+            .list-items{
+                width: 40%;
+                li {
+                    a{
+                        text-decoration: none;
+                        color: map-get(root.$color, 'text-color');
+                        font-weight: bold;
+                        font-size: .8em;
+                    }
+                }
+            }
+            // end list item
+            // hamburger button
+            // end hamburger button
+        }
+        // end list
+    }
+}
+
+// medium tab 
+@mixin md {
+    .navbar {
+        width: 100%;
+        // logo
+        .logo{
+            height: 70px;
+            padding: 0 30px;
+
+            // logo brand
+            .logo-brand{
+                img{
+                    height: 35px;
+                }
+            }
+            // end logo brand
+
+            // logo delivery
+            .logo-delivery{
+                img {
+                    width: 50px;
+                }
+                span {
+                    font-size: .8em;
+                }
+            }
+            // end logo delivery
+        }
+        // end logo
+
+        // list
+        .list {
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            flex-flow: row-reverse;
+            justify-content: center;
+            margin-bottom: 10px;
+            // list item
+            .list-items{
+
+                width: 70%;
+                li {
+                    a{
+                        text-decoration: none;
+                        color: map-get(root.$color, 'text-color');
+                        font-weight: bold;
+                        font-size: .8em;
+                    }
+                }
+            }
+            // end list item
+            // hamburger button
+            // end hamburger button
+        }
+        // end list
+    }
+}
+
+// sm hp 
+@mixin sm {
+    .navbar {
+        width: 100%;
+        // logo
+        .logo{
+            height: 70px;
+            padding: 0 30px;
+
+            // logo brand
+            .logo-brand{
+                img{
+                    height: 35px;
+                }
+            }
+            // end logo brand
+
+            // logo delivery
+            .logo-delivery{
+                display: none;
+            }
+            // end logo delivery
+        }
+        // end logo
+
+        // list
+        .list {
+            width: 100%;
+            height: 40px;
+            // list item
+            .list-items{
+
+                width: 90%;
+                li {
+                    a{
+                    }
+                }
+            }
+            // end list item
+            // hamburger button
+            // end hamburger button
+        }
+        // end list
+    }
+}
+
+// sm hp 
+@mixin m {
+    .navbar {
+        width: 100%;
+        // logo
+        .logo{
+            height: 60px;
+            padding: 0 30px;
+
+            // logo brand
+            .logo-brand{
+                img{
+                    height: 27px;
+                }
+            }
+            // end logo brand
+
+            // logo delivery
+            .logo-delivery{
+                display: none;
+            }
+            // end logo delivery
+        }
+        // end logo
+
+        // list
+        .list {
+            width: 100%;
+            height: 40px;
+            margin-bottom: 10px;
+            // list item
+            .list-items{
+
+                width: 100%;
+                li {
+                    a{
+                        font-size: .7em;
+                    }
+                }
+            }
+            // end list item
+            // hamburger button
+            // end hamburger button
+        }
+        // end list
+    }
+}

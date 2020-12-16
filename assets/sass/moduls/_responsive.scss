@@ -1,0 +1,46 @@
+@use 'landing/landing';
+@use 'landing/navbar';
+@use 'landing/header';
+
+@media only screen and (max-width:1024px) and (min-width:769px){
+    // landing page 
+    .landing-page{
+        width: 100%;
+        @include navbar.lg();
+        @include header.lg();
+    }
+    // end landing page
+}
+
+@media only screen and (max-width:767px) and (min-width:618px){
+    // landing page 
+    .landing-page{
+        width: 100%;
+        height: auto;
+        @include navbar.md();
+        @include header.md();
+    }
+    // end landing page
+}
+
+@media only screen and (max-width:619px)and (min-width:425px){
+    // landing page 
+    .landing-page{
+        width: 100%;
+        height: auto;
+        @include navbar.sm();
+        @include header.sm();
+    }
+    // end landing page
+}
+
+@media only screen and (max-width:425px){
+    // landing page 
+    .landing-page{
+        width: 100%;
+        height: auto;
+        @include navbar.m();
+        @include header.m();
+    }
+    // end landing page
+}
