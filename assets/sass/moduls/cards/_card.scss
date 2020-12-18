@@ -1,0 +1,136 @@
+@use '../root';
+@use '../mixin';
+
+@mixin card{
+    .card{
+        width: 90%;
+        height: 75vh;
+        display: flex;
+        // margin-top: 50px;
+        margin: 50px auto 100px auto;
+        justify-content: space-evenly;
+        color: map-get(root.$color,'text-color');
+
+        .row {
+            width: 30%;
+
+            // header 
+            .row-header {
+                width: 100%;
+                margin: auto;
+                text-align: center;
+                img {
+                    width:100% ;
+                    padding-top: 15px;
+                    box-sizing: border-box;
+                }
+                .Burger2{
+                    width: 75%;
+                    // margin-top: -40px;
+                }
+            }
+            // end header 
+
+            // description
+            .row-description{
+                width: 100%;
+                text-align: center;
+                margin:auto;
+                h1{
+                    font-family: map-get(root.$font,'BN-Regular');
+                    letter-spacing: 2px;
+                    font-weight: normal;
+                    margin: 20px 0;
+                }
+                p{
+                    // font-family: map-get(root.$font,'M-Regular');
+                    font-size: .9em;
+                    margin-bottom: 20px;
+                }
+            }
+            // end description
+
+            // button
+            .row-button {
+                width: 100%;
+                margin: auto;
+                text-align: center;
+                button {
+                    font-family: map-get(root.$font,'ASLO-Regular');
+                    font-weight: normal;
+                    text-transform: uppercase;
+                    width: 190px;
+                    height: 40px;
+                    color:map-get(root.$color,'white-color');
+                    background-color: map-get(root.$color,'background');
+                    outline: none;
+                    border: none;
+                    letter-spacing: 1px;
+                }
+            }
+            // end button 
+            &:hover {
+                cursor: pointer;
+                filter: brightness(.9);
+                background-color: #ffffff;
+                transition: .2s;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+// large
+
+@mixin lg{
+    .card{
+        .row {
+            width: 30%;
+
+            // header 
+            .row-header {
+                width: 100%;
+                img {
+                    width:100% ;
+                }
+                .Burger2{
+                    width: 75%;
+                    // margin-top: -40px;
+                }
+            }
+            // end header 
+
+            // description
+            .row-description{
+                width: 100%;
+                text-align: center;
+                margin:auto;
+                h1{
+                    margin: 15px 0;
+                    font-size: 1.7em;
+                }
+                p{
+                    // font-family: map-get(root.$font,'M-Regular');
+                    font-size: .8em;
+                    margin-bottom: 20px;
+                }
+            }
+            // end description
+
+            // button
+            .row-button {
+                width: 100%;
+                margin: auto;
+                text-align: center;
+                button {
+                    width: 180px;
+                    height: 35px;
+                    font-size: .8em;
+                }
+            }
+            // end button 
+        }
+    }
+}
+
+// end large

@@ -1,0 +1,14 @@
+@use 'root';
+
+@mixin media-images ($background) {
+    background-image: url($background);
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin media-text{
+    font-family: map-get(root.$font,'BN-Regular');
+    margin: 30px;
+    color: white;
+}

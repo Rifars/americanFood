@@ -1,17 +1,23 @@
 @use 'font';
+::-webkit-scrollbar{
+    display: none;
+}
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
 }
+
 body{
-    overflow-x: none;
+    font-family: sans-serif;
+    width: 100%;
 }
 
 $color : (
     'text-color' : #3d2514,
+    'background' : #df1b1c,
+    'white-color' : #fff
 );
 
 @include font.font();

@@ -1,0 +1,70 @@
+@use '../root';
+@use '../mixin';
+
+@mixin cards-header {
+    .cards-header {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        color: map-get(root.$color,'text-color');
+
+        // first
+        .first{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            width: 250px;
+            height: 50px;
+            background-color: #ffc234;
+            font-family: map-get(root.$font,'BN-Regular');
+            font-size: 1.5em;
+
+        }
+        // end first
+
+        // header
+        .header {
+            font-family: map-get(root.$font,'ASLO-Regular');
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 3em;
+            font-weight: normal;
+            margin: 30px 0 20px 0;
+        }
+        // end header
+
+        // text header
+        .text-header {
+            font-size: .9em;
+        }
+        // end text header
+    }
+}
+
+// large
+@mixin lg {
+    .cards-header {
+        // first
+        .first{
+            width: 240px;
+            height: 40px;
+            font-size: 1.3em;
+
+        }
+        // end first
+
+        // header
+        .header {
+            font-size: 2.8em;
+        }
+        // end header
+
+        // text header
+        .text-header {
+            font-size: .8em;
+        }
+        // end text header
+    }
+}
+// end large

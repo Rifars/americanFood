@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>American-food</title>
-
     <!-- aos  -->
     <link rel="stylesheet" href="assets/css/aos.css">
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <!-- style -->
     <link rel="stylesheet" href="assets/css/main.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
 
 </head>
-<body style="overflow-x: none;">
+<body>
     <!-- landing page -->
     <div class="landing-page">
         <!-- navbar -->
@@ -93,11 +92,40 @@
     <!-- media -->
     <div class="media">
         <!-- media image -->
-            <div class="media-image"></div>
+        <div class="media-image" data-aos="fade-right">
+            <div class="text">
+                <p>Try it today</p>
+                <h1>most popular burger</h1>
+            </div>
+        </div>
         <!-- end media image -->
 
         <!-- media images -->
-        <div class="media-images"></div>
+        <div class="media-images">
+            <!-- media images first -->
+            <div class="media-images-first" data-aos="fade-left">
+                <div class="text">
+                    <p>Try it today</p>
+                    <h1>
+                        <span>more fun</span>
+                        <span class="two">more taste</span>
+                    </h1>
+                </div>
+            </div>
+            <!-- end media images first -->
+
+            <!-- media images second -->
+            <div class="media-images-second" data-aos="fade-left">
+                <div class="text">
+                    <p>Try it today</p>
+                    <h1>
+                        <span>fress</span>
+                        <span>& chili</span>
+                    </h1>
+                </div>
+            </div>
+            <!-- end media images second -->
+        </div>
         <!-- end media images -->
     </div>
     <!-- end media -->
@@ -106,59 +134,17 @@
     <div class="cards">
         <!-- cards header -->
         <div class="cards-header">
-
+            <p class="first">Always tasty burger</p>
+            <h1 class="header" data-aos="fade-right">choose & enjoy</h1>
+            <p class="text-header" data-aos="fade-right" data-aos-delay="150">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore obcaecati delectus blanditiis perspiciatis natus accusantium hic vel. Rerum, veniam esse. <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga reprehenderit quod rerum aliquid!
+            </p>
         </div>
         <!-- end cards header -->
 
         <!-- card -->
         <div class="card">
-            <!-- row -->
-            <div class="row">
-                <!-- row header -->
-                    <div class="row-header"></div>
-                <!-- end row header -->
-
-                <!-- row description -->
-                <div class="row-description"></div>
-                <!-- end row description -->
-
-                <!-- row button -->
-                <div class="row-button "></div>
-                <!-- end row button -->
-            </div>
-            <!-- row -->
-
-            <!-- row -->
-            <div class="row">
-                <!-- row header -->
-                    <div class="row-header"></div>
-                <!-- end row header -->
-
-                <!-- row description -->
-                <div class="row-description"></div>
-                <!-- end row description -->
-
-                <!-- row button -->
-                <div class="row-button "></div>
-                <!-- end row button -->
-            </div>
-            <!-- row -->
-
-            <!-- row -->
-            <div class="row">
-                <!-- row header -->
-                    <div class="row-header"></div>
-                <!-- end row header -->
-
-                <!-- row description -->
-                <div class="row-description"></div>
-                <!-- end row description -->
-
-                <!-- row button -->
-                <div class="row-button "></div>
-                <!-- end row button -->
-            </div>
-            <!-- row -->
         </div>
         <!-- end card -->
     </div>
@@ -168,7 +154,10 @@
     <!-- script aos -->
     <script src="assets/script/aos.js"></script>
     <script>
-        AOS.init({duration: 1200,});
+        // animation on scroll (aos)
+        AOS.init({
+            duration: 1200,
+        });
     </script>
     <!-- script -->
     <script src="assets/script/main.js"></script>
