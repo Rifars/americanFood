@@ -6,9 +6,6 @@
 @use 'cards/card';
 
 @media only screen and (max-width:1024px) and (min-width:769px){
-    ::-webkit-scrollbar {
-        display: none;
-      }
       
     // landing page 
     .landing-page{
@@ -28,9 +25,6 @@
 }
 
 @media only screen and (max-width:767px) and (min-width:618px){
-    ::-webkit-scrollbar {
-        display: none;
-      }
       
     // landing page 
     .landing-page{
@@ -40,6 +34,14 @@
         @include header.md();
     }
     // end landing page
+
+    // cards
+    .cards{
+        width: 100%;
+        @include cards-header.md();
+        @include card.md();
+    }
+    // end cards
 }
 
 @media only screen and (max-width:619px)and (min-width:425px){
@@ -51,6 +53,14 @@
         @include header.sm();
     }
     // end landing page
+
+    // cards
+    .cards{
+        width: 100%;
+        @include cards-header.sm();
+        @include card.sm();
+    }
+    // end cards
 }
 
 @media only screen and (max-width:425px){
@@ -62,4 +72,12 @@
         @include header.m();
     }
     // end landing page
+
+    // cards
+    .cards{
+        width: 100%;
+        @include cards-header.m();
+        @include card.m();
+    }
+    // end cards
 }

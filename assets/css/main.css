@@ -285,10 +285,6 @@ body {
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
-  ::-webkit-scrollbar {
-    display: none;
-  }
-
   .landing-page {
     width: 100%;
   }
@@ -390,10 +386,6 @@ body {
   }
 }
 @media only screen and (max-width: 767px) and (min-width: 618px) {
-  ::-webkit-scrollbar {
-    display: none;
-  }
-
   .landing-page {
     width: 100%;
     height: auto;
@@ -463,6 +455,56 @@ body {
   .landing-page .header .header-section-second img {
     max-height: 300px;
   }
+
+  .cards {
+    width: 100%;
+  }
+  .cards .cards-header .first {
+    width: 230px;
+    height: 35px;
+    font-size: 1em;
+  }
+  .cards .cards-header .header {
+    font-size: 2.3em;
+  }
+  .cards .cards-header .text-header {
+    font-size: 0.8em;
+  }
+  .cards .card .row {
+    width: 30%;
+  }
+  .cards .card .row .row-header {
+    width: 100%;
+  }
+  .cards .card .row .row-header img {
+    width: 100%;
+  }
+  .cards .card .row .row-header .Burger2 {
+    width: 74%;
+  }
+  .cards .card .row .row-description {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .cards .card .row .row-description h1 {
+    margin: 15px 0;
+    font-size: 1.3em;
+  }
+  .cards .card .row .row-description p {
+    font-size: 0.7em;
+    margin-bottom: 20px;
+  }
+  .cards .card .row .row-button {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .cards .card .row .row-button button {
+    width: 170px;
+    height: 35px;
+    font-size: 0.7em;
+  }
 }
 @media only screen and (max-width: 619px) and (min-width: 425px) {
   .landing-page {
@@ -520,6 +562,59 @@ body {
   }
   .landing-page .header .header-section-second img {
     max-height: 300px;
+  }
+
+  .cards {
+    width: 100%;
+  }
+  .cards .cards-header .first {
+    width: 200px;
+    height: 30px;
+    font-size: 1em;
+  }
+  .cards .cards-header .header {
+    font-size: 1.8em;
+  }
+  .cards .cards-header .text-header {
+    font-size: 0.8em;
+  }
+  .cards .card .row1, .cards .card .row2 {
+    display: none;
+  }
+  .cards .card .row {
+    width: 90%;
+  }
+  .cards .card .row .row-header {
+    width: 100%;
+  }
+  .cards .card .row .row-header img {
+    width: 100%;
+  }
+  .cards .card .row .row-header .Burger2 {
+    width: 74%;
+  }
+  .cards .card .row .row-description {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .cards .card .row .row-description h1 {
+    margin: 15px 0;
+    font-size: 1.3em;
+  }
+  .cards .card .row .row-description p {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+  }
+  .cards .card .row .row-button {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .cards .card .row .row-button button {
+    width: 170px;
+    height: 35px;
+    font-size: 0.7em;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -583,6 +678,59 @@ body {
   }
   .landing-page .header .header-section-second img {
     max-height: 230px;
+  }
+
+  .cards {
+    width: 100%;
+  }
+  .cards .cards-header .first {
+    width: 200px;
+    height: 30px;
+    font-size: 1em;
+  }
+  .cards .cards-header .header {
+    font-size: 1.5em;
+  }
+  .cards .cards-header .text-header {
+    font-size: 0.8em;
+  }
+  .cards .card .row1, .cards .card .row2 {
+    display: none;
+  }
+  .cards .card .row {
+    width: 90%;
+  }
+  .cards .card .row .row-header {
+    width: 100%;
+  }
+  .cards .card .row .row-header img {
+    width: 100%;
+  }
+  .cards .card .row .row-header .Burger2 {
+    width: 74%;
+  }
+  .cards .card .row .row-description {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .cards .card .row .row-description h1 {
+    margin: 15px 0;
+    font-size: 1.3em;
+  }
+  .cards .card .row .row-description p {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+  }
+  .cards .card .row .row-button {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .cards .card .row .row-button button {
+    width: 170px;
+    height: 35px;
+    font-size: 0.6em;
   }
 }
 

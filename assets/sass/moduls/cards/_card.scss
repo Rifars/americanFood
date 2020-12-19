@@ -20,7 +20,7 @@
                 margin: auto;
                 text-align: center;
                 img {
-                    width:100% ;
+                    width:100%;
                     padding-top: 15px;
                     box-sizing: border-box;
                 }
@@ -81,7 +81,6 @@
 }
 
 // large
-
 @mixin lg{
     .card{
         .row {
@@ -132,5 +131,171 @@
         }
     }
 }
-
 // end large
+
+// medium
+@mixin md{
+    .card{
+        .row {
+            width: 30%;
+
+            // header 
+            .row-header {
+                width: 100%;
+                img {
+                    width:100% ;
+                }
+                .Burger2{
+                    width: 74%;
+                    // margin-top: -40px;
+                }
+            }
+            // end header 
+
+            // description
+            .row-description{
+                width: 100%;
+                text-align: center;
+                margin:auto;
+                h1{
+                    margin: 15px 0;
+                    font-size: 1.3em;
+                }
+                p{
+                    // font-family: map-get(root.$font,'M-Regular');
+                    font-size: .7em;
+                    margin-bottom: 20px;
+                }
+            }
+            // end description
+
+            // button
+            .row-button {
+                width: 100%;
+                margin: auto;
+                text-align: center;
+                button {
+                    width: 170px;
+                    height: 35px;
+                    font-size: .7em;
+                }
+            }
+            // end button 
+        }
+    }
+}
+// end medium
+
+// small
+@mixin sm{
+    .card{
+        .row1,.row2{
+            display: none;
+        }
+        .row {
+            width: 90%;
+
+            // header 
+            .row-header {
+                width: 100%;
+                img {
+                    width:100% ;
+                }
+                .Burger2{
+                    width: 74%;
+                    // margin-top: -40px;
+                }
+            }
+            // end header 
+
+            // description
+            .row-description{
+                width: 100%;
+                text-align: center;
+                margin:auto;
+                h1{
+                    margin: 15px 0;
+                    font-size: 1.3em;
+                }
+                p{
+                    // font-family: map-get(root.$font,'M-Regular');
+                    font-size: .8em;
+                    margin-bottom: 20px;
+                }
+            }
+            // end description
+
+            // button
+            .row-button {
+                width: 100%;
+                margin: auto;
+                text-align: center;
+                button {
+                    width: 170px;
+                    height: 35px;
+                    font-size: .7em;
+                }
+            }
+            // end button 
+        }
+
+    }
+}
+// end small
+
+// mini
+@mixin m{
+    .card{
+        .row1,.row2{
+            display: none;
+        }
+        .row {
+            width: 90%;
+
+            // header 
+            .row-header {
+                width: 100%;
+                img {
+                    width:100% ;
+                }
+                .Burger2{
+                    width: 74%;
+                    // margin-top: -40px;
+                }
+            }
+            // end header 
+
+            // description
+            .row-description{
+                width: 100%;
+                text-align: center;
+                margin:auto;
+                h1{
+                    margin: 15px 0;
+                    font-size: 1.3em;
+                }
+                p{
+                    // font-family: map-get(root.$font,'M-Regular');
+                    font-size: .8em;
+                    margin-bottom: 20px;
+                }
+            }
+            // end description
+
+            // button
+            .row-button {
+                width: 100%;
+                margin: auto;
+                text-align: center;
+                button {
+                    width: 170px;
+                    height: 35px;
+                    font-size: .6em;
+                }
+            }
+            // end button 
+        }
+
+    }
+}
+// end mini

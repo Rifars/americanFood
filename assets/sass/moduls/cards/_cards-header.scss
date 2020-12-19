@@ -68,3 +68,85 @@
     }
 }
 // end large
+
+// medium
+@mixin md {
+    .cards-header {
+        // first
+        .first{
+            width: 230px;
+            height: 35px;
+            font-size: 1em;
+
+        }
+        // end first
+
+        // header
+        .header {
+            font-size: 2.3em;
+        }
+        // end header
+
+        // text header
+        .text-header {
+            font-size: .8em;
+        }
+        // end text header
+    }
+}
+// end medium
+
+// smile
+@mixin sm {
+    .cards-header {
+        // first
+        .first{
+            width: 200px;
+            height: 30px;
+            font-size: 1em;
+
+        }
+        // end first
+
+        // header
+        .header {
+            font-size: 1.8em;
+        }
+        // end header
+
+        // text header
+        .text-header {
+            font-size: .8em;
+        }
+        // end text header
+    }
+}
+// end smile
+
+
+// mini
+@mixin m {
+    .cards-header {
+        // first
+        .first{
+            width: 200px;
+            height: 30px;
+            font-size: 1em;
+
+        }
+        // end first
+
+        // header
+        .header {
+            font-size: 1.5em;
+        }
+        // end header
+
+        // text header
+        .text-header {
+            font-size: .8em;
+        }
+        // end text header
+    }
+}
+// end mini
