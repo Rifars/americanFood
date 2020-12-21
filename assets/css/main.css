@@ -284,6 +284,155 @@ body {
   border-radius: 10px;
 }
 
+.about {
+  width: 90%;
+  height: 70vh;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  box-shadow: 13px 13px 13px rgba(71, 70, 70, 0.2);
+}
+.about .row {
+  width: 2%;
+}
+.about .about-main {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .about-main .about-text {
+  width: 44%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about .about-main .about-text .text-header {
+  height: 35%;
+  color: #3d2514;
+}
+.about .about-main .about-text .text-header p {
+  font-family: "BebasNeue-Regular";
+  font-size: 1.8em;
+  letter-spacing: 1px;
+}
+.about .about-main .about-text .text-header h1 {
+  font-family: "AlfaSlabOne-Regular";
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 2.3em;
+  letter-spacing: 1px;
+}
+.about .about-main .about-text .text-main {
+  height: 65%;
+}
+.about .about-main .about-text .text-main p {
+  font-family: "Montserrat-Regular";
+  line-height: 1.8em;
+}
+.about .about-main .about-text .text-bullet {
+  height: 5%;
+}
+.about .about-main .about-text .text-bullet .bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
+.about .about-main .about-text .text-bullet .one {
+  background-color: #ff9100;
+}
+.about .about-main .about-images {
+  height: 100%;
+  width: 50%;
+}
+.about .about-main .about-images img {
+  width: 100%;
+}
+
+.place {
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+}
+.place .tables {
+  width: 100%;
+  position: relative;
+}
+.place .tables .tables-header {
+  text-align: center;
+  margin: 50px auto;
+  color: #3d2514;
+}
+.place .tables .tables-header h1 {
+  font-family: "AlfaSlabOne-Regular";
+  font-weight: normal;
+  font-size: 2.3em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.place .tables .tables-header p {
+  padding-top: 20px;
+  box-sizing: border-box;
+  font-family: "BebasNeue-Regular";
+  font-size: 1.5em;
+  letter-spacing: 1.2px;
+}
+.place .tables .tables-main {
+  position: relative;
+  width: 95%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.place .tables .tables-main .botles {
+  position: absolute;
+  transform: translateX(125px);
+  left: -70px;
+}
+.place .tables .tables-main .table {
+  width: 60%;
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.place .tables .tables-main .table .table-left, .place .tables .tables-main .table .table-right {
+  width: 45%;
+}
+.place .tables .tables-main .table .table-left .inPlace, .place .tables .tables-main .table .table-right .inPlace {
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  outline: none;
+  font-family: "Montserrat-Regular";
+  border: none;
+  box-shadow: 0 0 3px #aaa;
+  border-radius: 5px;
+}
+.place .tables .tables-main .table .table-left button.inPlace, .place .tables .tables-main .table .table-right button.inPlace {
+  padding: 0;
+  font-family: "AlfaSlabOne-Regular";
+  background-color: #df1b1c;
+  color: white;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.place .tables .tables-main .table .table-left button.inPlace:hover, .place .tables .tables-main .table .table-right button.inPlace:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
   .landing-page {
     width: 100%;

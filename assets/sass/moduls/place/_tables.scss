@@ -1,0 +1,97 @@
+@use '../root';
+@use '../mixin';
+
+@mixin tables {
+    .tables{
+        width: 100%;
+        position: relative;
+        
+
+        // tables header
+        .tables-header{
+            text-align: center;
+            margin:50px auto;
+            color: map-get(root.$color,'text-color');
+
+            h1{
+                font-family: map-get(root.$font,'ASLO-Regular');
+                font-weight: normal;
+                font-size: 2.3em;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                margin-top: 10px;
+            }
+
+            p{
+                padding-top: 20px;
+                box-sizing: border-box;
+                font-family: map-get(root.$font,'BN-Regular');
+                font-size: 1.5em;
+                letter-spacing: 1.2px;
+                
+            }
+
+            
+        }
+        // end tables header
+
+        // tables main
+        .tables-main{
+            position: relative;
+            width: 95%;
+            display: flex;
+            margin: auto;
+            justify-content:center;
+            align-items: center;
+
+            // botles
+            .botles{
+                position: absolute;
+                // width: 30%;
+                transform: translateX(125px);
+                left: -70px;
+            }
+            // end botles
+
+            // table
+            .table{
+                width: 60%;
+                display: flex;
+                margin: auto;
+                justify-content: space-evenly;
+                align-items: center;
+
+                .table-left,.table-right{
+                    width: 45%;
+                    .inPlace{
+                        width: 100%;
+                        height: 50px;
+                        padding-left: 10px;
+                        box-sizing: border-box;
+                        margin-bottom: 30px;
+                        outline: none;
+                        font-family: map-get(root.$font,'M-Regular');
+                        border: none;
+                        box-shadow: 0 0 3px #aaa;
+                        border-radius: 5px;
+                    }
+                    button.inPlace{
+                        padding: 0;
+                        font-family: map-get(root.$font,'ASLO-Regular');
+                        background-color: map-get(root.$color,'background');
+                        color: white;
+                        font-size: 1.2em;
+                        text-transform: uppercase;
+                        
+                        &:hover {
+                            filter: brightness(.9);
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            // end table
+        }
+        // end tables main
+    }
+}

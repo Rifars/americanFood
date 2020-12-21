@@ -1,0 +1,9 @@
+@use '../font';
+@use '../mixin';
+
+@mixin row{
+    .row {
+        width: 2%;
+
+    }
+}

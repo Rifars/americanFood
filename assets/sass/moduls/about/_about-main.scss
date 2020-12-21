@@ -1,0 +1,70 @@
+@use '../root';
+@use '../mixin';
+
+@mixin about {
+    .about-main{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // background-color: aqua;
+        .about-text{
+            width: 44%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .text-header {
+                height: 35%;
+                color: map-get(root.$color,'text-color');
+                p{
+                    font-family: map-get(root.$font,'BN-Regular');
+                    font-size: 1.8em;
+                    letter-spacing: 1px;
+                }
+                h1{
+                    font-family: map-get(root.$font,'ASLO-Regular');
+                    font-weight: normal;
+                    text-transform: uppercase;
+                    font-size: 2.3em;
+                    letter-spacing: 1px;
+                }
+            }
+            .text-main{
+                height: 65%;
+                p{
+                    font-family: map-get(root.$font,'M-Regular');
+                    line-height: 1.8em;
+
+                }
+            }
+
+            .text-bullet{
+                height: 5%;
+                .bullet{
+                    width: 15px;
+                    height: 15px;
+                    background-color: #ddd;
+                    border-radius: 50%;
+                    display: inline-block;
+                    margin-left: 5px;
+                }
+                .one {
+                    background-color: rgb(255, 145, 0);
+                }
+            }
+        }
+
+        .about-images{
+            height: 100%;
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+
+    }
+    
+}
