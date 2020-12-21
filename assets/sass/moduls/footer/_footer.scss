@@ -1,0 +1,15 @@
+@use '../root';
+@use '../mixin';
+@use 'main-footer';
+
+.footer {
+    height: 80vh;
+    width: 90%;
+    background-image: url(../images/footer/background.png);
+    background-position: center;
+    background-size: cover;
+    margin:-30px auto 50px;
+    position: relative;
+
+    @include main-footer.footer();
+}

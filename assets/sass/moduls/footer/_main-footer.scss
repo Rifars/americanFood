@@ -1,0 +1,65 @@
+@use '../root';
+@use '../mixin';
+
+@mixin footer {
+    // footer logo
+    .footer-logo{
+        padding: 70px 50px 40px 50px;
+        box-sizing: border-box;
+        width: 100%;
+        img {
+            width: 30%;
+        }
+    }
+    // end footer logo
+
+    // footer main 
+    .footer-main{
+        color: map-get(root.$color,'white-color2');
+        width: 100%;
+        padding: 0 50px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+
+        // footer text
+        .footer-text{
+            width: 43%;
+            p{
+                font-family: map-get(root.$font,'M-Regular');
+                line-height: 1.8em;
+            }
+        }
+        // end footer text
+
+        // information
+        .information{
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding-left: 50px;
+            // padding: 0;
+            box-sizing: border-box;
+            font-family: map-get(root.$font,'BN-Regular');
+            font-size: 1.2em;
+        }
+        // end information
+
+    }
+    // end footer main
+
+    // footer icon
+    .footer-icon{
+        position: absolute;
+        bottom: 5vh;
+        padding: 0 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        color: map-get(root.$color,'white-color2');
+    }
+    // end footer icon
+
+    
+}
