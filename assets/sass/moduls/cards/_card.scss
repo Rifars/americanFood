@@ -136,6 +136,8 @@
 // medium
 @mixin md{
     .card{
+        margin-bottom: 50px;
+        height: auto;
         .row {
             width: 30%;
 
@@ -174,6 +176,8 @@
                 width: 100%;
                 margin: auto;
                 text-align: center;
+                padding-bottom: 20px;
+                box-sizing: border-box;
                 button {
                     width: 170px;
                     height: 35px;
@@ -189,6 +193,8 @@
 // small
 @mixin sm{
     .card{
+        height: auto;
+
         .row1,.row2{
             display: none;
         }
@@ -230,6 +236,8 @@
                 width: 100%;
                 margin: auto;
                 text-align: center;
+                padding-bottom: 20px;
+                box-sizing: border-box;
                 button {
                     width: 170px;
                     height: 35px;

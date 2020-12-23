@@ -620,6 +620,54 @@ body {
     font-size: 0.8em;
   }
 
+  .about {
+    width: 90%;
+  }
+  .about .about-main {
+    width: 100%;
+  }
+  .about .about-main .about-text .text-header {
+    height: 28%;
+    color: #3d2514;
+  }
+  .about .about-main .about-text .text-header p {
+    font-size: 1.2em;
+  }
+  .about .about-main .about-text .text-header h1 {
+    font-size: 1.5em;
+  }
+  .about .about-main .about-text .text-main {
+    height: 65%;
+  }
+  .about .about-main .about-text .text-main p {
+    font-family: "Montserrat-Regular";
+    line-height: 1.8em;
+    font-size: 0.8em;
+  }
+  .about .about-main .about-text .text-bullet {
+    height: 7%;
+  }
+  .about .about-main .about-text .text-bullet .bullet {
+    margin-top: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .about .about-main .about-text .text-bullet .one {
+    background-color: #ff9100;
+  }
+  .about .about-main .about-images {
+    height: 100%;
+    width: 50%;
+  }
+  .about .about-main .about-images img {
+    width: 100%;
+    height: 90%;
+  }
+
   .footer {
     width: 95%;
   }
@@ -661,6 +709,10 @@ body {
     display: block;
     font-size: 1em;
     text-align: center;
+  }
+
+  .licence .main-licence a {
+    font-size: 1em;
   }
 }
 @media only screen and (max-width: 767px) and (min-width: 618px) {
@@ -748,6 +800,10 @@ body {
   .cards .cards-header .text-header {
     font-size: 0.8em;
   }
+  .cards .card {
+    margin-bottom: 50px;
+    height: auto;
+  }
   .cards .card .row {
     width: 30%;
   }
@@ -777,11 +833,73 @@ body {
     width: 100%;
     margin: auto;
     text-align: center;
+    padding-bottom: 20px;
+    box-sizing: border-box;
   }
   .cards .card .row .row-button button {
     width: 170px;
     height: 35px;
     font-size: 0.7em;
+  }
+
+  .about {
+    width: 90%;
+    height: auto;
+  }
+  .about .about-main {
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .about .about-main .about-text {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .about .about-main .about-text .text-header {
+    height: 28%;
+    color: #3d2514;
+  }
+  .about .about-main .about-text .text-header p {
+    font-size: 1.2em;
+  }
+  .about .about-main .about-text .text-header h1 {
+    font-size: 1.5em;
+  }
+  .about .about-main .about-text .text-main {
+    height: 65%;
+  }
+  .about .about-main .about-text .text-main p {
+    font-family: "Montserrat-Regular";
+    line-height: 1.8em;
+    font-size: 0.8em;
+  }
+  .about .about-main .about-text .text-bullet {
+    position: absolute;
+    bottom: 5%;
+    height: 7%;
+    left: 7%;
+  }
+  .about .about-main .about-text .text-bullet .bullet {
+    margin-top: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .about .about-main .about-text .text-bullet .one {
+    background-color: #ff9100;
+  }
+  .about .about-main .about-images {
+    height: 100%;
+    width: 90%;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .about .about-main .about-images img {
+    width: 100%;
   }
 
   .footer {
@@ -829,6 +947,10 @@ body {
     display: block;
     font-size: 1em;
     text-align: center;
+  }
+
+  .licence .main-licence a {
+    font-size: 0.8em;
   }
 }
 @media only screen and (max-width: 619px) and (min-width: 425px) {
@@ -903,6 +1025,9 @@ body {
   .cards .cards-header .text-header {
     font-size: 0.8em;
   }
+  .cards .card {
+    height: auto;
+  }
   .cards .card .row1, .cards .card .row2 {
     display: none;
   }
@@ -935,11 +1060,74 @@ body {
     width: 100%;
     margin: auto;
     text-align: center;
+    padding-bottom: 20px;
+    box-sizing: border-box;
   }
   .cards .card .row .row-button button {
     width: 170px;
     height: 35px;
     font-size: 0.7em;
+  }
+
+  .about {
+    width: 90%;
+    height: auto;
+    margin: 150px auto;
+  }
+  .about .about-main {
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .about .about-main .about-text {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .about .about-main .about-text .text-header {
+    height: 28%;
+    color: #3d2514;
+  }
+  .about .about-main .about-text .text-header p {
+    font-size: 1em;
+  }
+  .about .about-main .about-text .text-header h1 {
+    font-size: 1.3em;
+  }
+  .about .about-main .about-text .text-main {
+    height: 65%;
+  }
+  .about .about-main .about-text .text-main p {
+    font-family: "Montserrat-Regular";
+    line-height: 1.8em;
+    font-size: 0.7em;
+  }
+  .about .about-main .about-text .text-bullet {
+    position: absolute;
+    bottom: 8%;
+    height: 7%;
+    left: 7%;
+  }
+  .about .about-main .about-text .text-bullet .bullet {
+    margin-top: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .about .about-main .about-text .text-bullet .one {
+    background-color: #ff9100;
+  }
+  .about .about-main .about-images {
+    height: 100%;
+    width: 90%;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .about .about-main .about-images img {
+    width: 100%;
   }
 
   .footer {
@@ -1005,6 +1193,10 @@ body {
     display: block;
     font-size: 1em;
     text-align: center;
+  }
+
+  .licence .main-licence a {
+    font-size: 0.7em;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -1123,6 +1315,67 @@ body {
     font-size: 0.6em;
   }
 
+  .about {
+    width: 90%;
+    height: auto;
+    margin: 150px auto;
+  }
+  .about .about-main {
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .about .about-main .about-text {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .about .about-main .about-text .text-header {
+    height: 28%;
+    color: #3d2514;
+  }
+  .about .about-main .about-text .text-header p {
+    font-size: 1em;
+  }
+  .about .about-main .about-text .text-header h1 {
+    font-size: 1.1em;
+  }
+  .about .about-main .about-text .text-main {
+    height: 65%;
+  }
+  .about .about-main .about-text .text-main p {
+    font-family: "Montserrat-Regular";
+    line-height: 1.8em;
+    font-size: 0.7em;
+  }
+  .about .about-main .about-text .text-bullet {
+    position: absolute;
+    bottom: 8%;
+    height: 10%;
+    left: 7%;
+  }
+  .about .about-main .about-text .text-bullet .bullet {
+    margin-top: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .about .about-main .about-text .text-bullet .one {
+    background-color: #ff9100;
+  }
+  .about .about-main .about-images {
+    height: 100%;
+    width: 90%;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .about .about-main .about-images img {
+    width: 100%;
+  }
+
   .footer {
     margin: 0 auto;
     width: 95%;
@@ -1186,6 +1439,10 @@ body {
     display: block;
     font-size: 1em;
     text-align: center;
+  }
+
+  .licence .main-licence a {
+    font-size: 0.7em;
   }
 }
 

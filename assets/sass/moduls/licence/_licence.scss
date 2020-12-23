@@ -13,3 +13,43 @@
         
     }
 }
+
+@mixin lg{
+    .licence{
+        .main-licence{
+            a {
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+@mixin md{
+    .licence{
+        .main-licence{
+            a {
+                font-size: .8em;
+            }
+        }
+    }
+}
+
+@mixin sm{
+    .licence{
+        .main-licence{
+            a {
+                font-size: .7em;
+            }
+        }
+    }
+}
+
+@mixin m{
+    .licence{
+        .main-licence{
+            a {
+                font-size: .7em;
+            }
+        }
+    }
+}

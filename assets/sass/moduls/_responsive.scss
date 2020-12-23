@@ -4,9 +4,12 @@
 @use 'cards/cards';
 @use 'cards/cards-header';
 @use 'cards/card';
+@use 'about/about';
+@use 'about/about-row';
+@use 'about/about-main';
 @use 'footer/footer';
 @use 'footer/main-footer';
-
+@use 'licence/licence';
 
 @media only screen and (max-width:1024px) and (min-width:769px){
       
@@ -26,6 +29,13 @@
     }
     // end cards
 
+    // about 
+    .about {
+        width: 90%;
+        @include about-main.lg();
+    }
+    // end about 
+
     // footer
     .footer{
         width: 95%;
@@ -33,6 +43,13 @@
 
     }
     // end footer
+
+
+    // licence
+    @include licence.lg();
+    // end licence
+
+    
 }
 
 @media only screen and (max-width:767px) and (min-width:618px){
@@ -54,6 +71,14 @@
     }
     // end cards
 
+    // about 
+    .about {
+        width: 90%;
+        height: auto;
+        @include about-main.md();
+    }
+    // end about 
+
     // footer
     .footer{
         margin-top: 20px;
@@ -62,6 +87,10 @@
 
     }
     // end footer
+
+     // licence
+     @include licence.md();
+     // end licence
 }
 
 @media only screen and (max-width:619px)and (min-width:425px){
@@ -82,6 +111,15 @@
     }
     // end cards
 
+     // about 
+     .about {
+        width: 90%;
+        height: auto;
+        margin:150px auto;
+        @include about-main.sm();
+    }
+    // end about 
+
     // footer
     .footer{
         // margin-top: 20px;
@@ -91,7 +129,11 @@
         @include main-footer.sm();
 
     }
-    // end foote
+    // end footer
+
+     // licence
+     @include licence.sm();
+     // end licence
 }
 
 @media only screen and (max-width:425px){
@@ -112,6 +154,15 @@
     }
     // end cards
 
+     // about 
+     .about {
+        width: 90%;
+        height: auto;
+        margin:150px auto;
+        @include about-main.m();
+    }
+    // end about 
+
     // footer
     .footer{
         // margin-top: 20px;
@@ -121,5 +172,9 @@
         @include main-footer.m();
 
     }
-    // end foote
+    // end footer
+
+     // licence
+     @include licence.m();
+     // end licence
 }
