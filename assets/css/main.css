@@ -475,6 +475,14 @@ body {
   font-family: "BebasNeue-Regular";
   font-size: 1.2em;
 }
+.footer .footer-main .information p {
+  width: 100%;
+  display: flex;
+}
+.footer .footer-main .information p i {
+  width: 15%;
+  font-size: 1.4em;
+}
 .footer .footer-icon {
   position: absolute;
   bottom: 5vh;
@@ -483,6 +491,24 @@ body {
   display: flex;
   justify-content: space-between;
   color: #eee;
+}
+.footer .footer-icon .footer-copyright p {
+  font-family: "BebasNeue-Regular";
+}
+.footer .footer-icon .icons .icon {
+  background-color: #eee;
+  color: #333;
+  display: inline-block;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+.footer .footer-icon .icons .icon i {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  font-size: 1.1em;
+  text-align: center;
 }
 
 .licence {
@@ -592,6 +618,49 @@ body {
     width: 180px;
     height: 35px;
     font-size: 0.8em;
+  }
+
+  .footer {
+    width: 95%;
+  }
+  .footer .footer-logo {
+    padding: 50px 50px 40px 50px;
+  }
+  .footer .footer-logo img {
+    width: 25%;
+  }
+  .footer .footer-main .footer-text {
+    width: 45%;
+  }
+  .footer .footer-main .footer-text p {
+    font-size: 0.9em;
+    font-family: "Montserrat-Regular";
+    line-height: 1.7em;
+  }
+  .footer .footer-main .information {
+    width: 43%;
+    padding-left: 30px;
+    font-size: 1.1em;
+  }
+  .footer .footer-main .information p {
+    width: 100%;
+    display: flex;
+  }
+  .footer .footer-main .information p i {
+    width: 15%;
+    font-size: 1.3em;
+  }
+  .footer .footer-icon .footer-copyright p {
+    font-family: "BebasNeue-Regular";
+    font-size: 0.8em;
+  }
+  .footer .footer-icon .icons .icon i {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    font-size: 1em;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 767px) and (min-width: 618px) {
@@ -714,6 +783,53 @@ body {
     height: 35px;
     font-size: 0.7em;
   }
+
+  .footer {
+    margin-top: 20px;
+    width: 95%;
+  }
+  .footer .footer-logo {
+    padding: 50px 50px 40px 50px;
+  }
+  .footer .footer-logo img {
+    width: 30%;
+  }
+  .footer .footer-main .footer-text {
+    width: 45%;
+  }
+  .footer .footer-main .footer-text p {
+    font-size: 0.8em;
+    font-family: "Montserrat-Regular";
+    line-height: 1.7em;
+  }
+  .footer .footer-main .information {
+    width: 45%;
+    padding-left: 30px;
+    font-size: 0.9em;
+  }
+  .footer .footer-main .information p {
+    width: 100%;
+    display: flex;
+  }
+  .footer .footer-main .information p i {
+    width: 15%;
+    font-size: 1.2em;
+  }
+  .footer .footer-icon .footer-copyright p {
+    font-family: "BebasNeue-Regular";
+    font-size: 0.8em;
+  }
+  .footer .footer-icon .footer-copyright p i {
+    margin-right: 5px;
+  }
+  .footer .footer-icon .icons .icon i {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    font-size: 1em;
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 619px) and (min-width: 425px) {
   .landing-page {
@@ -824,6 +940,71 @@ body {
     width: 170px;
     height: 35px;
     font-size: 0.7em;
+  }
+
+  .footer {
+    margin: 0 auto;
+    width: 95%;
+    height: 95vh;
+  }
+  .footer .footer-logo {
+    padding: 50px 50px 40px 50px;
+  }
+  .footer .footer-logo img {
+    width: 50%;
+  }
+  .footer .footer-main {
+    flex-direction: column;
+  }
+  .footer .footer-main .footer-text {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .footer .footer-main .footer-text p {
+    font-size: 0.8em;
+    font-family: "Montserrat-Regular";
+    line-height: 1.7em;
+  }
+  .footer .footer-main .information {
+    width: 100%;
+    padding-left: 0;
+    font-size: 0.9em;
+  }
+  .footer .footer-main .information p {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .footer .footer-main .information p i {
+    width: 10%;
+    font-size: 1.2em;
+  }
+  .footer .footer-icon {
+    bottom: 8vh;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .footer-icon .footer-copyright {
+    order: 2;
+  }
+  .footer .footer-icon .footer-copyright p {
+    font-family: "BebasNeue-Regular";
+    font-size: 0.8em;
+  }
+  .footer .footer-icon .footer-copyright p i {
+    margin-right: 5px;
+  }
+  .footer .footer-icon .icons {
+    margin-bottom: 15px;
+    order: 1;
+  }
+  .footer .footer-icon .icons .icon i {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    font-size: 1em;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -940,6 +1121,71 @@ body {
     width: 170px;
     height: 35px;
     font-size: 0.6em;
+  }
+
+  .footer {
+    margin: 0 auto;
+    width: 95%;
+    height: 95vh;
+  }
+  .footer .footer-logo {
+    padding: 50px 50px 40px 50px;
+  }
+  .footer .footer-logo img {
+    width: 50%;
+  }
+  .footer .footer-main {
+    flex-direction: column;
+  }
+  .footer .footer-main .footer-text {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .footer .footer-main .footer-text p {
+    font-size: 0.8em;
+    font-family: "Montserrat-Regular";
+    line-height: 1.7em;
+  }
+  .footer .footer-main .information {
+    width: 100%;
+    padding-left: 0;
+    font-size: 0.9em;
+  }
+  .footer .footer-main .information p {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .footer .footer-main .information p i {
+    width: 10%;
+    font-size: 1.2em;
+  }
+  .footer .footer-icon {
+    bottom: 8vh;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .footer-icon .footer-copyright {
+    order: 2;
+  }
+  .footer .footer-icon .footer-copyright p {
+    font-family: "BebasNeue-Regular";
+    font-size: 0.8em;
+  }
+  .footer .footer-icon .footer-copyright p i {
+    margin-right: 5px;
+  }
+  .footer .footer-icon .icons {
+    margin-bottom: 15px;
+    order: 1;
+  }
+  .footer .footer-icon .icons .icon i {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    font-size: 1em;
+    text-align: center;
   }
 }
 

@@ -4,6 +4,9 @@
 @use 'cards/cards';
 @use 'cards/cards-header';
 @use 'cards/card';
+@use 'footer/footer';
+@use 'footer/main-footer';
+
 
 @media only screen and (max-width:1024px) and (min-width:769px){
       
@@ -22,6 +25,14 @@
         @include card.lg();
     }
     // end cards
+
+    // footer
+    .footer{
+        width: 95%;
+        @include main-footer.lg();
+
+    }
+    // end footer
 }
 
 @media only screen and (max-width:767px) and (min-width:618px){
@@ -42,6 +53,15 @@
         @include card.md();
     }
     // end cards
+
+    // footer
+    .footer{
+        margin-top: 20px;
+        width: 95%;
+        @include main-footer.md();
+
+    }
+    // end footer
 }
 
 @media only screen and (max-width:619px)and (min-width:425px){
@@ -61,6 +81,17 @@
         @include card.sm();
     }
     // end cards
+
+    // footer
+    .footer{
+        // margin-top: 20px;
+        margin: 0 auto;
+        width: 95%;
+        height: 95vh;
+        @include main-footer.sm();
+
+    }
+    // end foote
 }
 
 @media only screen and (max-width:425px){
@@ -80,4 +111,15 @@
         @include card.m();
     }
     // end cards
+
+    // footer
+    .footer{
+        // margin-top: 20px;
+        margin: 0 auto;
+        width: 95%;
+        height: 95vh;
+        @include main-footer.m();
+
+    }
+    // end foote
 }

@@ -43,6 +43,19 @@
             box-sizing: border-box;
             font-family: map-get(root.$font,'BN-Regular');
             font-size: 1.2em;
+            // background-color: aqua;
+            p{
+                width: 100%;
+                // justify-content: space-evenly;
+                display: flex;
+
+                i{
+                    width: 15%;
+                    font-size: 1.4em;
+                }
+
+            }
+             
         }
         // end information
 
@@ -58,6 +71,367 @@
         display: flex;
         justify-content: space-between;
         color: map-get(root.$color,'white-color2');
+
+        .footer-copyright{
+            p{
+                font-family: map-get(root.$font,'BN-Regular');
+            }
+        }
+
+        .icons {
+            .icon {
+                
+                background-color: map-get(root.$color,'white-color2');
+                color: #333;
+                display: inline-block;
+                margin-left: 5px;
+                
+                border-radius: 50%;
+                i {
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    display: block;
+                    font-size: 1.1em;
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+    // end footer icon
+
+    
+}
+
+@mixin lg {
+    // footer logo
+    .footer-logo{
+        padding: 50px 50px 40px 50px;
+        img {
+            width: 25%;
+        }
+    }
+    // end footer logo
+
+    // footer main 
+    .footer-main{
+
+        // footer text
+        .footer-text{
+            width: 45%;
+            p{
+                font-size: .9em;
+                font-family: map-get(root.$font,'M-Regular');
+                line-height: 1.7em;
+            }
+        }
+        // end footer text
+
+        // information
+        .information{
+            width: 43%;
+            padding-left: 30px;
+            font-size: 1.1em;
+            // background-color: aqua;
+            p{
+                width: 100%;
+                // justify-content: space-evenly;
+                display: flex;
+
+                i{
+                    width: 15%;
+                    font-size: 1.3em;
+                }
+
+            }
+             
+        }
+        // end information
+
+    }
+    // end footer main
+
+    // footer icon
+    .footer-icon{
+        .footer-copyright{
+            p{
+                font-family: map-get(root.$font,'BN-Regular');
+                font-size: .8em;
+            }
+        }
+
+        .icons {
+            .icon {
+                i {
+                    width: 25px;
+                    height: 25px;
+                    line-height: 25px;
+                    display: block;
+                    font-size: 1em;
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+    // end footer icon
+
+    
+}
+
+
+@mixin md {
+    // footer logo
+    .footer-logo{
+        padding: 50px 50px 40px 50px;
+        img {
+            width: 30%;
+        }
+    }
+    // end footer logo
+
+    // footer main 
+    .footer-main{
+
+        // footer text
+        .footer-text{
+            width: 45%;
+            p{
+                font-size: .8em;
+                font-family: map-get(root.$font,'M-Regular');
+                line-height: 1.7em;
+            }
+        }
+        // end footer text
+
+        // information
+        .information{
+            width: 45%;
+            padding-left: 30px;
+            font-size: .9em;
+            // background-color: aqua;
+            p{
+                width: 100%;
+                // justify-content: space-evenly;
+                display: flex;
+
+                i{
+                    width: 15%;
+                    font-size: 1.2em;
+                }
+
+            }
+             
+        }
+        // end information
+
+    }
+    // end footer main
+
+    // footer icon
+    .footer-icon{
+        .footer-copyright{
+            p{
+                font-family: map-get(root.$font,'BN-Regular');
+                font-size: .8em;
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .icons {
+            .icon {
+                i {
+                    width: 25px;
+                    height: 25px;
+                    line-height: 25px;
+                    display: block;
+                    font-size: 1em;
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+    // end footer icon
+
+    
+}
+
+@mixin sm {
+    // footer logo
+    .footer-logo{
+        padding: 50px 50px 40px 50px;
+        img {
+            width: 50%;
+        }
+    }
+    // end footer logo
+
+    // footer main 
+    .footer-main{
+        flex-direction: column;
+
+        // footer text
+        .footer-text{
+            margin-bottom: 20px;
+            width: 100%;
+            p{
+                font-size: .8em;
+                font-family: map-get(root.$font,'M-Regular');
+                line-height: 1.7em;
+            }
+        }
+        // end footer text
+
+        // information
+        .information{
+            width: 100%;
+            padding-left: 0;
+            font-size: .9em;
+            // background-color: aqua;
+            p{
+                width: 100%;
+                margin-bottom: 10px;
+                // justify-content: space-evenly;
+                display: flex;
+
+                i{
+                    width: 10%;
+                    font-size: 1.2em;
+                }
+
+            }
+             
+        }
+        // end information
+
+    }
+    // end footer main
+
+    // footer icon
+    .footer-icon{
+        bottom: 8vh;
+        flex-direction: column;
+        align-items: center;
+       
+        .footer-copyright{
+            order: 2;
+            p{
+                font-family: map-get(root.$font,'BN-Regular');
+                font-size: .8em;
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .icons {
+            margin-bottom: 15px;
+            order: 1;
+            .icon {
+                i {
+                    width: 25px;
+                    height: 25px;
+                    line-height: 25px;
+                    display: block;
+                    font-size: 1em;
+                    text-align: center;
+
+                }
+            }
+        }
+    }
+    // end footer icon
+
+    
+}
+
+@mixin m{
+    // footer logo
+    .footer-logo{
+        padding: 50px 50px 40px 50px;
+        img {
+            width: 50%;
+        }
+    }
+    // end footer logo
+
+    // footer main 
+    .footer-main{
+        flex-direction: column;
+
+        // footer text
+        .footer-text{
+            margin-bottom: 20px;
+            width: 100%;
+            p{
+                font-size: .8em;
+                font-family: map-get(root.$font,'M-Regular');
+                line-height: 1.7em;
+            }
+        }
+        // end footer text
+
+        // information
+        .information{
+            width: 100%;
+            padding-left: 0;
+            font-size: .9em;
+            // background-color: aqua;
+            p{
+                width: 100%;
+                margin-bottom: 10px;
+                // justify-content: space-evenly;
+                display: flex;
+
+                i{
+                    width: 10%;
+                    font-size: 1.2em;
+                }
+
+            }
+             
+        }
+        // end information
+
+    }
+    // end footer main
+
+    // footer icon
+    .footer-icon{
+        bottom: 8vh;
+        flex-direction: column;
+        align-items: center;
+       
+        .footer-copyright{
+            order: 2;
+            p{
+                font-family: map-get(root.$font,'BN-Regular');
+                font-size: .8em;
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .icons {
+            margin-bottom: 15px;
+            order: 1;
+            .icon {
+                i {
+                    width: 25px;
+                    height: 25px;
+                    line-height: 25px;
+                    display: block;
+                    font-size: 1em;
+                    text-align: center;
+
+                }
+            }
+        }
     }
     // end footer icon
 
