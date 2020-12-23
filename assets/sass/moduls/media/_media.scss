@@ -64,3 +64,231 @@
     // end media images
 
 }
+
+@mixin lg {
+    .media {
+        height: 90vh;
+        width: 90%;
+        .media-image,.media-images{
+            .text{
+                @include mixin.media-text();
+                p{
+                    font-size: 1.3em;
+                }
+                h1{
+                    letter-spacing: 2px;
+                    font-size: 2em;
+                }
+    
+            }
+        }
+    
+        // media image
+        .media-image {
+            height: 75%;
+            width: 45%;
+            @include mixin.media-images('../images/media/Burger-Image1.png');
+        }
+        // end media image
+    
+    
+        // media images
+        .media-images {
+            width: 48%;
+            height: 75%;
+    
+            .media-images-first,.media-images-second{
+                width: 100%;
+                height: 47%;
+            }
+    
+            .media-images-first{
+                @include mixin.media-images('../images/media/burger-Image2.png');
+                h1{
+                    display: flex;
+                    flex-direction: column;
+                    .two{
+                        display: inline-block;
+                        margin-top: -10px;
+                    }
+                }
+            }
+            .media-images-second{
+                @include mixin.media-images('../images/media/burger-Image3.png');
+            }
+        }
+        // end media images
+    
+    }
+}
+
+@mixin md {
+    .media {
+        height: 90vh;
+        width: 90%;
+        .media-image,.media-images{
+            .text{
+                @include mixin.media-text();
+                p{
+                    font-size: 1em;
+                }
+                h1{
+                    letter-spacing: 2px;
+                    font-size: 1.6em;
+                }
+    
+            }
+        }
+    
+        // media image
+        .media-image {
+            height: 75%;
+            width: 45%;
+            @include mixin.media-images('../images/media/Burger-Image1.png');
+        }
+        // end media image
+    
+    
+        // media images
+        .media-images {
+            width: 48%;
+            height: 75%;
+    
+            .media-images-first,.media-images-second{
+                width: 100%;
+                height: 47%;
+            }
+    
+            .media-images-first{
+                @include mixin.media-images('../images/media/burger-Image2.png');
+                h1{
+                    display: flex;
+                    flex-direction: column;
+                    .two{
+                        display: inline-block;
+                        margin-top: -5px;
+                    }
+                }
+            }
+            .media-images-second{
+                @include mixin.media-images('../images/media/burger-Image3.png');
+            }
+        }
+        // end media images
+    
+    }
+}
+
+@mixin sm {
+    .media {
+        height: 90vh;
+        width: 90%;
+        .media-image,.media-images{
+            .text{
+                @include mixin.media-text();
+                p{
+                    font-size: 1em;
+                }
+                h1{
+                    letter-spacing: 2px;
+                    font-size: 1.5em;
+                }
+    
+            }
+        }
+    
+        // media image
+        .media-image {
+            height: 75%;
+            width: 45%;
+            @include mixin.media-images('../images/media/Burger-Image1.png');
+        }
+        // end media image
+    
+    
+        // media images
+        .media-images {
+            width: 48%;
+            height: 75%;
+    
+            .media-images-first,.media-images-second{
+                width: 100%;
+                height: 47%;
+            }
+    
+            .media-images-first{
+                @include mixin.media-images('../images/media/burger-Image2.png');
+                h1{
+                    display: flex;
+                    flex-direction: column;
+                    .two{
+                        display: inline-block;
+                        margin-top: -5px;
+                    }
+                }
+            }
+            .media-images-second{
+                @include mixin.media-images('../images/media/burger-Image3.png');
+            }
+        }
+        // end media images
+    
+    }
+}
+
+@mixin m {
+    .media {
+        height: 90vh;
+        width: 95%;
+        .media-image,.media-images{
+            .text{
+                @include mixin.media-text();
+                p{
+                    font-size: .8em;
+                }
+                h1{
+                    letter-spacing: 2px;
+                    font-size: 1.3em;
+                }
+    
+            }
+        }
+    
+        // media image
+        .media-image {
+            height: 75%;
+            width: 45%;
+            @include mixin.media-images('../images/media/Burger-Image1.png');
+        }
+        // end media image
+    
+    
+        // media images
+        .media-images {
+            width: 48%;
+            height: 75%;
+    
+            .media-images-first,.media-images-second{
+                width: 100%;
+                height: 47%;
+            }
+    
+            .media-images-first{
+                @include mixin.media-images('../images/media/burger-Image2.png');
+                h1{
+                    display: flex;
+                    flex-direction: column;
+                    .two{
+                        display: inline-block;
+                        margin-top: -5px;
+                    }
+                }
+            }
+            .media-images-second{
+                @include mixin.media-images('../images/media/burger-Image3.png');
+            }
+        }
+        // end media images
+    
+    }
+}

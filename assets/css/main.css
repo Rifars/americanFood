@@ -570,6 +570,59 @@ body {
     max-height: 300px;
   }
 
+  .media {
+    height: 90vh;
+    width: 90%;
+  }
+  .media .media-image .text, .media .media-images .text {
+    font-family: "BebasNeue-Regular";
+    margin: 30px;
+    color: white;
+  }
+  .media .media-image .text p, .media .media-images .text p {
+    font-size: 1.3em;
+  }
+  .media .media-image .text h1, .media .media-images .text h1 {
+    letter-spacing: 2px;
+    font-size: 2em;
+  }
+  .media .media-image {
+    height: 75%;
+    width: 45%;
+    background-image: url("../images/media/Burger-Image1.png");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  .media .media-images {
+    width: 48%;
+    height: 75%;
+  }
+  .media .media-images .media-images-first, .media .media-images .media-images-second {
+    width: 100%;
+    height: 47%;
+  }
+  .media .media-images .media-images-first {
+    background-image: url("../images/media/burger-Image2.png");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  .media .media-images .media-images-first h1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .media .media-images .media-images-first h1 .two {
+    display: inline-block;
+    margin-top: -10px;
+  }
+  .media .media-images .media-images-second {
+    background-image: url("../images/media/burger-Image3.png");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+
   .cards {
     width: 100%;
   }
@@ -784,6 +837,59 @@ body {
   }
   .landing-page .header .header-section-second img {
     max-height: 300px;
+  }
+
+  .media {
+    height: 90vh;
+    width: 90%;
+  }
+  .media .media-image .text, .media .media-images .text {
+    font-family: "BebasNeue-Regular";
+    margin: 30px;
+    color: white;
+  }
+  .media .media-image .text p, .media .media-images .text p {
+    font-size: 1em;
+  }
+  .media .media-image .text h1, .media .media-images .text h1 {
+    letter-spacing: 2px;
+    font-size: 1.6em;
+  }
+  .media .media-image {
+    height: 75%;
+    width: 45%;
+    background-image: url("../images/media/Burger-Image1.png");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  .media .media-images {
+    width: 48%;
+    height: 75%;
+  }
+  .media .media-images .media-images-first, .media .media-images .media-images-second {
+    width: 100%;
+    height: 47%;
+  }
+  .media .media-images .media-images-first {
+    background-image: url("../images/media/burger-Image2.png");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  .media .media-images .media-images-first h1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .media .media-images .media-images-first h1 .two {
+    display: inline-block;
+    margin-top: -5px;
+  }
+  .media .media-images .media-images-second {
+    background-image: url("../images/media/burger-Image3.png");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
   }
 
   .cards {
@@ -1009,6 +1115,59 @@ body {
   }
   .landing-page .header .header-section-second img {
     max-height: 300px;
+  }
+
+  .media {
+    height: 90vh;
+    width: 90%;
+  }
+  .media .media-image .text, .media .media-images .text {
+    font-family: "BebasNeue-Regular";
+    margin: 30px;
+    color: white;
+  }
+  .media .media-image .text p, .media .media-images .text p {
+    font-size: 1em;
+  }
+  .media .media-image .text h1, .media .media-images .text h1 {
+    letter-spacing: 2px;
+    font-size: 1.5em;
+  }
+  .media .media-image {
+    height: 75%;
+    width: 45%;
+    background-image: url("../images/media/Burger-Image1.png");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  .media .media-images {
+    width: 48%;
+    height: 75%;
+  }
+  .media .media-images .media-images-first, .media .media-images .media-images-second {
+    width: 100%;
+    height: 47%;
+  }
+  .media .media-images .media-images-first {
+    background-image: url("../images/media/burger-Image2.png");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  .media .media-images .media-images-first h1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .media .media-images .media-images-first h1 .two {
+    display: inline-block;
+    margin-top: -5px;
+  }
+  .media .media-images .media-images-second {
+    background-image: url("../images/media/burger-Image3.png");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
   }
 
   .cards {
@@ -1260,6 +1419,59 @@ body {
   }
   .landing-page .header .header-section-second img {
     max-height: 230px;
+  }
+
+  .media {
+    height: 90vh;
+    width: 95%;
+  }
+  .media .media-image .text, .media .media-images .text {
+    font-family: "BebasNeue-Regular";
+    margin: 30px;
+    color: white;
+  }
+  .media .media-image .text p, .media .media-images .text p {
+    font-size: 0.8em;
+  }
+  .media .media-image .text h1, .media .media-images .text h1 {
+    letter-spacing: 2px;
+    font-size: 1.3em;
+  }
+  .media .media-image {
+    height: 75%;
+    width: 45%;
+    background-image: url("../images/media/Burger-Image1.png");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  .media .media-images {
+    width: 48%;
+    height: 75%;
+  }
+  .media .media-images .media-images-first, .media .media-images .media-images-second {
+    width: 100%;
+    height: 47%;
+  }
+  .media .media-images .media-images-first {
+    background-image: url("../images/media/burger-Image2.png");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  .media .media-images .media-images-first h1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .media .media-images .media-images-first h1 .two {
+    display: inline-block;
+    margin-top: -5px;
+  }
+  .media .media-images .media-images-second {
+    background-image: url("../images/media/burger-Image3.png");
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
   }
 
   .cards {

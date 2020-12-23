@@ -1,6 +1,7 @@
 @use 'landing/landing';
 @use 'landing/navbar';
 @use 'landing/header';
+@use 'media/media';
 @use 'cards/cards';
 @use 'cards/cards-header';
 @use 'cards/card';
@@ -21,6 +22,10 @@
     }
     // end landing page
 
+    // media 
+    @include media.lg();
+    // end media 
+    
     // cards
     .cards{
         width: 100%;
@@ -63,6 +68,10 @@
     }
     // end landing page
 
+    // media 
+    @include media.md();
+    // end media 
+
     // cards
     .cards{
         width: 100%;
@@ -102,6 +111,10 @@
         @include header.sm();
     }
     // end landing page
+
+    // media 
+    @include media.sm();
+    // end media 
 
     // cards
     .cards{
@@ -145,6 +158,12 @@
         @include header.m();
     }
     // end landing page
+
+
+    // media 
+    @include media.m();
+    // end media 
+
 
     // cards
     .cards{
