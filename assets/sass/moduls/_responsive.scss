@@ -8,6 +8,9 @@
 @use 'about/about';
 @use 'about/about-row';
 @use 'about/about-main';
+@use 'place/places';
+@use 'place/place-background';
+@use 'place/tables';
 @use 'footer/footer';
 @use 'footer/main-footer';
 @use 'licence/licence';
@@ -40,6 +43,13 @@
         @include about-main.lg();
     }
     // end about 
+
+    // place
+    .place {
+        width: 100%;
+        @include tables.lg();
+    }
+    // end place
 
     // footer
     .footer{
@@ -88,6 +98,13 @@
     }
     // end about 
 
+    // place
+    .place {
+        width: 100%;
+        @include tables.md();
+    }
+    // end place
+
     // footer
     .footer{
         margin-top: 20px;
@@ -132,6 +149,15 @@
         @include about-main.sm();
     }
     // end about 
+
+    // place
+    .place {
+        height: auto;
+        width: 100%;
+        @include tables.sm();
+    }
+    // end place
+
 
     // footer
     .footer{
@@ -181,6 +207,14 @@
         @include about-main.m();
     }
     // end about 
+
+    // place
+    .place {
+        width: 100%;
+        height: auto;
+        @include tables.m();
+    }
+    // end place
 
     // footer
     .footer{
