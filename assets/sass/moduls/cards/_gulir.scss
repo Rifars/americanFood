@@ -1,0 +1,97 @@
+@use '../root';
+@use '../mixin';
+
+@mixin gulir {
+    .gulir {
+        display: none;
+        position: absolute;
+        top: 73%;
+        left: 5%;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+
+        i {
+            color: map-get(root.$color,'text-color');
+            font-size: 2em;
+            cursor: pointer;
+        }
+    }
+}
+
+@mixin lg {
+    .gulir {
+        display: none;
+        position: absolute;
+        top: 73%;
+        left: 5%;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+
+        i {
+            color: map-get(root.$color,'text-color');
+            font-size: 2em;
+            cursor: pointer;
+        }
+    }
+}
+
+@mixin md {
+    .gulir {
+        display: none;
+        position: absolute;
+        top: 73%;
+        left: 5%;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+
+        i {
+            color: map-get(root.$color,'text-color');
+            font-size: 2em;
+            cursor: pointer;
+        }
+    }
+}
+
+@mixin sm {
+    .gulir {
+        display: flex;
+        position: absolute;
+        top: 73%;
+        left: 5%;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+
+        i {
+            color: map-get(root.$color,'text-color');
+            font-size: 2em;
+            cursor: pointer;
+        }
+    }
+}
+
+@mixin m {
+    .gulir {
+        display: flex;
+        position: absolute;
+        top: 73%;
+        left: 5%;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+
+        i {
+            color: map-get(root.$color,'text-color');
+            font-size: 2em;
+            cursor: pointer;
+        }
+    }
+}

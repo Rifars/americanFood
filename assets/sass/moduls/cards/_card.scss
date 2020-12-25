@@ -28,6 +28,9 @@
                     width: 75%;
                     // margin-top: -40px;
                 }
+                .Burger3 {
+                    transform: rotateY(180deg);
+                }
             }
             // end header 
 
@@ -195,7 +198,7 @@
     .card{
         height: auto;
 
-        .row1,.row2{
+        .row2,.row3{
             display: none;
         }
         .row {
@@ -254,7 +257,7 @@
 // mini
 @mixin m{
     .card{
-        .row1,.row2{
+        .row2,.row3{
             display: none;
         }
         .row {

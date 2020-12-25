@@ -2,6 +2,7 @@
 @use '../mixin';
 @use 'cards-header';
 @use 'card';
+@use 'gulir';
 
 .cards {
     width: 100%;
@@ -9,6 +10,8 @@
     margin:auto;
     padding-bottom: 50px;
     box-sizing: border-box;
+    position: relative;
     @include cards-header.cards-header();
     @include card.card();
+    @include gulir.gulir();
 }

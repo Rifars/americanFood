@@ -191,6 +191,7 @@ body {
   margin: auto;
   padding-bottom: 50px;
   box-sizing: border-box;
+  position: relative;
 }
 .cards .cards-header {
   width: 80%;
@@ -244,6 +245,9 @@ body {
 .cards .card .row .row-header .Burger2 {
   width: 75%;
 }
+.cards .card .row .row-header .Burger3 {
+  transform: rotateY(180deg);
+}
 .cards .card .row .row-description {
   width: 100%;
   text-align: center;
@@ -282,6 +286,21 @@ body {
   background-color: #ffffff;
   transition: 0.2s;
   border-radius: 10px;
+}
+.cards .gulir {
+  display: none;
+  position: absolute;
+  top: 73%;
+  left: 5%;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.cards .gulir i {
+  color: #3d2514;
+  font-size: 2em;
+  cursor: pointer;
 }
 
 .about {
@@ -673,6 +692,21 @@ body {
     height: 35px;
     font-size: 0.8em;
   }
+  .cards .gulir {
+    display: none;
+    position: absolute;
+    top: 73%;
+    left: 5%;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .cards .gulir i {
+    color: #3d2514;
+    font-size: 2em;
+    cursor: pointer;
+  }
 
   .about {
     width: 90%;
@@ -992,6 +1026,21 @@ body {
     height: 35px;
     font-size: 0.7em;
   }
+  .cards .gulir {
+    display: none;
+    position: absolute;
+    top: 73%;
+    left: 5%;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .cards .gulir i {
+    color: #3d2514;
+    font-size: 2em;
+    cursor: pointer;
+  }
 
   .about {
     width: 90%;
@@ -1277,7 +1326,7 @@ body {
   .cards .card {
     height: auto;
   }
-  .cards .card .row1, .cards .card .row2 {
+  .cards .card .row2, .cards .card .row3 {
     display: none;
   }
   .cards .card .row {
@@ -1316,6 +1365,21 @@ body {
     width: 170px;
     height: 35px;
     font-size: 0.7em;
+  }
+  .cards .gulir {
+    display: flex;
+    position: absolute;
+    top: 73%;
+    left: 5%;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .cards .gulir i {
+    color: #3d2514;
+    font-size: 2em;
+    cursor: pointer;
   }
 
   .about {
@@ -1632,7 +1696,7 @@ body {
   .cards .cards-header .text-header {
     font-size: 0.8em;
   }
-  .cards .card .row1, .cards .card .row2 {
+  .cards .card .row2, .cards .card .row3 {
     display: none;
   }
   .cards .card .row {
@@ -1669,6 +1733,21 @@ body {
     width: 170px;
     height: 35px;
     font-size: 0.6em;
+  }
+  .cards .gulir {
+    display: flex;
+    position: absolute;
+    top: 73%;
+    left: 5%;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .cards .gulir i {
+    color: #3d2514;
+    font-size: 2em;
+    cursor: pointer;
   }
 
   .about {

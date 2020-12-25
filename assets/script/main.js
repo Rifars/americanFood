@@ -6,6 +6,11 @@ AOS.init({
 let cards = document.querySelector('.cards .card');
 let card = [1,2,3];
 
+
+card.map(c => {
+    dataCard(c);    
+});
+
 function dataCard(dCard){
     // let card = ' ';
     let data = `<div class="row row${dCard}">
@@ -31,6 +36,38 @@ function dataCard(dCard){
     return cards.innerHTML += data;
 }
 
-card.map(c => {
-    dataCard(c);    
+let gulir = document.querySelector('.gulir');
+let rows = Array.from(document.querySelectorAll('.row'));
+let number = 0;
+gulir.addEventListener('click',function(e) {
+    let numb = 0;
+    if(e.target.classList.contains('gulir-left')){
+        numb = number--;
+        numb--
+        if(number < 0 ){
+            number = 2;
+        }
+        gulirKiri(numb, number);
+    }
+
+    else if(e.target.classList.contains('gulir-right')){
+        numb = number++;
+        numb++
+        if(number > 2 ){
+            number = 0;
+        }
+        gulirKanan(numb,number);
+        
+    }
 });
+
+
+function gulirKiri(numb, number){
+    rows[number].style.display = "inline-block";
+    rows[numb + 1].style.display = "none";
+}
+
+function gulirKanan(numb, number){
+    rows[number].style.display = "inline-block";
+    rows[numb-1].style.display = "none";
+}
