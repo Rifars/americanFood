@@ -1,7 +1,7 @@
 // animation on scroll (aos)
-// AOS.init({
-//     duration: 1200,
-// });
+AOS.init({
+    duration: 800,
+});
 
 let cards = document.querySelector('.cards .card');
 let card = [1,2,3];
@@ -15,20 +15,20 @@ function dataCard(dCard){
     // let card = ' ';
     let data = `<div class="row row${dCard}">
     <!-- row header -->
-    <div class="row-header" >
+    <div class="row-header"  data-aos="fade-left" data-aos-delay="${dCard * 100}">
         <img src="assets/images/card/Burger${dCard}.png" alt="burger${dCard}" class="Burger${dCard}">
     </div>
     <!-- end row header -->
 
     <!-- row description -->
-    <div class="row-description">
+    <div class="row-description"  data-aos="fade-left" data-aos-delay="${dCard * 200}">
         <h1>lorem ipsum dolor</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quod expedita.</p>
     </div>
     <!-- end row description -->
 
     <!-- row button -->
-    <div class="row-button">
+    <div class="row-button"  data-aos="fade-left" data-aos-delay="${dCard * 250}">
         <button type="button" >order now</button>
     </div>
     <!-- end row button -->

@@ -3,6 +3,7 @@
 @use 'main-footer';
 
 .footer {
+    overflow-x: hidden;
     height: 80vh;
     width: 90%;
     background-image: url(../images/footer/background.png);

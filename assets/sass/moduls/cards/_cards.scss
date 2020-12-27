@@ -5,6 +5,7 @@
 @use 'gulir';
 
 .cards {
+    overflow-x: hidden;
     width: 100%;
     height: 110vh;
     margin:auto;
