@@ -139,7 +139,7 @@
 // medium
 @mixin md{
     .card{
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         height: auto;
         .row {
             width: 30%;
@@ -257,6 +257,7 @@
 // mini
 @mixin m{
     .card{
+        
         .row2,.row3{
             display: none;
         }
