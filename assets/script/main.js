@@ -1,7 +1,7 @@
 // animation on scroll (aos)
-AOS.init({
-    duration: 1200,
-});
+// AOS.init({
+//     duration: 1200,
+// });
 
 let cards = document.querySelector('.cards .card');
 let card = [1,2,3];

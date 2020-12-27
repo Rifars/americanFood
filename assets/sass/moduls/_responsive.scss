@@ -50,6 +50,7 @@
     .place {
         width: 100%;
         @include tables.lg();
+        @include place-background.lg();
     }
     // end place
 
@@ -105,6 +106,7 @@
     .place {
         width: 100%;
         @include tables.md();
+        @include place-background.md();
     }
     // end place
 
@@ -159,6 +161,7 @@
         height: auto;
         width: 100%;
         @include tables.sm();
+        @include place-background.sm();
     }
     // end place
 
@@ -218,6 +221,7 @@
         width: 100%;
         height: auto;
         @include tables.m();
+        @include place-background.m();
     }
     // end place
 

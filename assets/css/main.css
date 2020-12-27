@@ -10,7 +10,8 @@
 
 body {
   font-family: sans-serif;
-  width: 100%;
+  overflow-x: none;
+  background-color: white;
 }
 
 @font-face {
@@ -379,6 +380,24 @@ body {
   width: 100%;
   height: 100vh;
   margin-top: 100px;
+  position: relative;
+  overflow-x: none;
+}
+.place .place-background {
+  width: 100%;
+}
+.place .place-background img {
+  position: absolute;
+}
+.place .place-background .place-image1 {
+  width: 15%;
+  top: -10%;
+}
+.place .place-background .place-image2 {
+  width: 23%;
+  bottom: 25%;
+  right: 0;
+  transform: translateX(30%) rotate(60deg);
 }
 .place .tables {
   width: 100%;
@@ -417,6 +436,9 @@ body {
   transform: translateX(125px);
   left: -70px;
   z-index: -1;
+}
+.place .tables .tables-main .botles img {
+  width: 80%;
 }
 .place .tables .tables-main .table {
   width: 60%;
@@ -799,6 +821,22 @@ body {
     filter: brightness(0.9);
     cursor: pointer;
   }
+  .place .place-background {
+    width: 100%;
+  }
+  .place .place-background img {
+    position: absolute;
+  }
+  .place .place-background .place-image1 {
+    width: 15%;
+    top: -10%;
+  }
+  .place .place-background .place-image2 {
+    width: 23%;
+    bottom: 25%;
+    right: 0;
+    transform: translateX(30%) rotate(60deg);
+  }
 
   .footer {
     width: 95%;
@@ -1145,6 +1183,22 @@ body {
   .place .tables .tables-main .table .table-left button.inPlace:hover, .place .tables .tables-main .table .table-right button.inPlace:hover {
     filter: brightness(0.9);
     cursor: pointer;
+  }
+  .place .place-background {
+    width: 100%;
+  }
+  .place .place-background img {
+    position: absolute;
+  }
+  .place .place-background .place-image1 {
+    width: 15%;
+    top: -10%;
+  }
+  .place .place-background .place-image2 {
+    width: 23%;
+    bottom: 25%;
+    right: 0;
+    transform: translateX(30%) rotate(60deg);
   }
 
   .footer {
@@ -1495,6 +1549,23 @@ body {
   .place .tables .tables-main .table .table-left button.inPlace:hover, .place .tables .tables-main .table .table-right button.inPlace:hover {
     filter: brightness(0.9);
     cursor: pointer;
+  }
+  .place .place-background {
+    display: none;
+    width: 100%;
+  }
+  .place .place-background img {
+    position: absolute;
+  }
+  .place .place-background .place-image1 {
+    width: 15%;
+    top: -10%;
+  }
+  .place .place-background .place-image2 {
+    width: 23%;
+    bottom: 25%;
+    right: 0;
+    transform: translateX(30%) rotate(60deg);
   }
 
   .footer {
@@ -1863,6 +1934,23 @@ body {
   .place .tables .tables-main .table .table-left button.inPlace:hover, .place .tables .tables-main .table .table-right button.inPlace:hover {
     filter: brightness(0.9);
     cursor: pointer;
+  }
+  .place .place-background {
+    display: none;
+    width: 100%;
+  }
+  .place .place-background img {
+    position: absolute;
+  }
+  .place .place-background .place-image1 {
+    width: 15%;
+    top: -10%;
+  }
+  .place .place-background .place-image2 {
+    width: 23%;
+    bottom: 25%;
+    right: 0;
+    transform: translateX(30%) rotate(60deg);
   }
 
   .footer {

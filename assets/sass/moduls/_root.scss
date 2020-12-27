@@ -2,17 +2,19 @@
 ::-webkit-scrollbar{
     display: none;
 }
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
-body{
+body {
     font-family: sans-serif;
-    width: 100%;
+    overflow-x: none;
+    background-color: white;
 }
+
 
 $color : (
     'text-color' : #3d2514,
